@@ -35,6 +35,26 @@ section li:last-child {
   padding-left: 2px;
 }
 
+header p{
+  padding-top: 30px;
+}
+
+nav p{
+  padding-top: 70px;
+}
+
+main p{
+  padding-top: 60px;
+}
+
+section p{
+  padding-top: 120px;
+}
+
+aside p{
+  padding-top: 30px;
+}
+
 @media only screen and (min-width: 768px) {
   main li {
     width: 377px;
@@ -60,5 +80,25 @@ section li:last-child {
   section li:last-child {
     border: none;
     padding: none;
+  }
+
+  header p{
+    padding-top: 40px;
+  }
+  
+  nav p{
+    padding-top: 280px;
+  }
+  
+  main p{
+    padding-top: 90px;
+  }
+  
+  section p{
+    padding-top: 130px;
+  }
+  
+  aside p{
+    padding-top: 70px;
   }
 }
