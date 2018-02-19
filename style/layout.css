@@ -4,6 +4,10 @@ header, nav, main, section, aside {
   border: 1px solid black;
 }
 
+p {
+  margin: 0;
+}
+
 nav, main, section, aside {
   border-top: none;
 }
