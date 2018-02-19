@@ -34,3 +34,31 @@ section li:last-child {
   border-left: 1px solid black;
   padding-left: 2px;
 }
+
+@media only screen and (min-width: 768px) {
+  main li {
+    width: 377px;
+    height: 100%;
+  }
+
+  main li:first-of-type {
+    border-bottom: none;
+    border-right: 1px solid black;
+  }
+
+  section li{
+   height: 100%;
+   width: 184px;
+   border-right: 1px solid black;
+  }
+
+  section li:first-child {
+    border-bottom: none;
+    padding: none;
+  }
+  
+  section li:last-child {
+    border: none;
+    padding: none;
+  }
+}

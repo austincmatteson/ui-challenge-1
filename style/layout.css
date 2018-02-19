@@ -1,4 +1,4 @@
-header, nav, main, section, aside{
+header, nav, main, section, aside {
   margin: auto;
   width: 480px;
   border: 1px solid black;
@@ -14,7 +14,6 @@ header {
 
 nav {
   height: 150px;
-
 }
 
 main {
@@ -27,4 +26,42 @@ section {
 
 aside {
   height: 80px;
+}
+
+@media only screen and (min-width: 768px) {
+  header, nav, main, section, aside {
+    margin: auto;
+  }
+
+  header {
+    width: 100%;
+    height: 100px;
+  }
+
+  nav {
+    width: 197px;
+    height: 600px;
+    border-right: none;
+  }
+
+  main, section, aside {
+    width: 760px;
+  }
+
+  main {
+    height: 200px;
+  }
+
+  section {
+    height: 250px;
+  }
+
+  aside {
+    height: 150px;
+  }
+
+  div {
+    float: left;
+  }
+
 }
