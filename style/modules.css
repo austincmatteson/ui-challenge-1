@@ -1,0 +1,36 @@
+ul, li{
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+li {
+  list-style-type: none;
+  display: inline-block;
+}
+
+main li {
+  height: 125px;
+  width: 100%;
+}
+
+main li:first-of-type {
+  border-bottom: 1px solid black;
+}
+
+section li {
+  height: 50%;
+  width: 236px;
+}
+
+section li:first-child {
+  border-right: 1px solid black;
+  border-bottom: 1px solid black;
+  padding-right: 2px;
+}
+
+section li:last-child {
+  border-top: 1px solid black;
+  border-left: 1px solid black;
+  padding-left: 2px;
+}
